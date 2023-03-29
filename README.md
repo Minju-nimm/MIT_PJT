@@ -31,6 +31,12 @@
 My AI Fairytale은 어린이가 그린 그림을 바탕으로 동화 이미지와 동화를 생성하여 직접 읽어주는 기능까지 탑재한 참여형 창작 웹서비스 입니다. 어린이의 마음을 사로잡는 새로운 동화와 그림을 생성함으로써 어린이의 정서적 발달에도 크게 기여할 것으로 기대합니다.
 
 
+### My AI Fairy-Tale 바로가기 - 링크 첨부
+
+## 시연영상 넣기
+
+
+
 ## Installation
 ```bash
 pip install -r requirements.txt
@@ -45,8 +51,8 @@ pip install -r requirements.txt
 
 ## Project Tree :deciduous_tree:
 ```bash
-final-project-level3-nlp-06
-├── KoGPT
+MIT_PJT
+├── CNN
 │   ├── RESULT
 │   ├── README.md
 │   ├── kogpt_inference.py
@@ -60,32 +66,24 @@ final-project-level3-nlp-06
 │   ├── main.py
 │   ├── train.py
 │   └── util.py
-├── LanguageModel
+├── koGPT2_split
 │   ├── data
 │   ├── dataset.py
 │   ├── inference.py
 │   ├── main.py
 │   ├── model.py
 │   └── train.py
-├── cyclegan
-│   ├── README.md
-│   ├── dataset.py
-│   ├── didsplay_results.py
-│   ├── inference.py
+├── react
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
 │   ├── layer.py
-│   ├── main.py
-│   ├── model.py
-│   ├── run_main.sh
-│   ├── train.py
-│   └── util.py
-├── src
-├── streamlit
+│   ├── components
 │   ├── images
-│   │   └── streamlit.png
-│   ├── README.md
-│   ├── inference_for_streamlit.py
-│   └── streamlit_app.py
-├── utils
+│   ├── pages
+│   └── redux
+├── flask
 │   ├── perplexity_compute_metrics.py
 │   ├── perplexity_test.py
 │   ├── preprocessing.py
@@ -93,3 +91,26 @@ final-project-level3-nlp-06
 ├── requirements.txt
 └── README.md
 ```
+
+## Usage
+문서형식으로 간단히 ㅅ정리하면 될듯
+
+koGPT2 
+python KoGPT/kogpt_trainer.py
+
+
+
+
+
+
+
+## Dataset
+
+
+
+## Reference
+
+
+
+---
+해당 프로젝트는 멀티캠퍼스 데이터 분석 및 웹 개발자 13회차 파이널 프로젝트 3조 MIT가 기획하였습니다.
