@@ -1,4 +1,4 @@
-# :baby: 어린이를 위한 동화 제작 서비스, My AI Fairy-Tale :green_book:
+# :baby: 어린이를 위한 동화 제작 서비스, My AI Fairy-Tale 📖
 <br>
 </br>
 
@@ -38,7 +38,7 @@ My AI Fairytale은 어린이가 그린 그림을 바탕으로 동화 이미지�
 </br>
 
 ## 🗺️ 프로세스 맵
-<img src="https://user-images.githubusercontent.com/119478998/228760864-3408c253-e957-499e-9e98-4b3df45aa1d3.png" width="800" height="400" />
+<img src="https://user-images.githubusercontent.com/119478998/228760864-3408c253-e957-499e-9e98-4b3df45aa1d3.png" width="800" height="500" />
 
 <br>
 </br>
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 <br>
 </br>
 
-## Project Tree :deciduous_tree:
+## :deciduous_tree: Project Tree 
 ```bash
 MIT_PJT
 ├── CNN
@@ -157,7 +157,7 @@ serve -s build
 <br>
 </br>
 
-## Dataset
+## 📂 Dataset
 - [quickdraw-dataset](https://github.com/googlecreativelab/quickdraw-dataset)
 - [어린이 전래동화 (청와대)](http://18children.president.pa.go.kr/our_space/fairy_tales.php)
 - [그림형제 동화 번역 데이터](https://m.blog.naver.com/osy2201/221179543994)
@@ -166,7 +166,7 @@ serve -s build
 <br>
 </br>
 
-## Reference
+## 📚 Reference
 - https://www.yna.co.kr/view/AKR20210113064500005
 - https://github.com/uvipen/QuickDraw
 - https://github.com/microsoft/DeepSpeed
