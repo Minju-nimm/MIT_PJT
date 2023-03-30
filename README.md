@@ -186,7 +186,7 @@ serve -s build
 - https://github.com/boostcampaitech3/final-project-level3-nlp-06
 - https://github.com/ttop32/KoGPT2novel
 - https://openai.com/blog/dall-e/
-- [React Redux | React Redux](https://react-redux.js.org/)
+- [React Redux](https://react-redux.js.org/)
 <br>
 </br>
 
