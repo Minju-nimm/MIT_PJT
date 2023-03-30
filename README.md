@@ -36,11 +36,17 @@ My AI Fairytale은 어린이가 그린 그림을 바탕으로 동화 이미지�
 
 ## 🎥 시연영상
 ### 1. 서비스 가이드
+<img src="https://user-images.githubusercontent.com/119478998/228752379-ac0cdc14-d5e0-4014-935a-ef74564def43.gif" width="800" height="400" />
+<br>
+</br>
 
 ### 2. 그림 인식
+<img src="https://user-images.githubusercontent.com/119478998/228748433-6366ac3d-2e8b-4c5e-a6d7-208a5bd8bee5.gif" width="800" height="400" />
+<br>
+</br>
 
 ### 3. 동화 생성
-
+<img src="https://user-images.githubusercontent.com/119478998/228751099-122cf77c-48fa-4e5d-be71-7bcd4ecd1bf4.gif" width="800" height="400" />
 
 
 <br>
@@ -53,6 +59,7 @@ pip install -r requirements.txt
 
 <br>
 </br>
+
 ## Architecture
 
 :baby:
@@ -66,15 +73,17 @@ pip install -r requirements.txt
 ```bash
 MIT_PJT
 ├── CNN
-│   ├── RESULT
+│   ├── Deepspeed
+│   ├── src
 │   ├── README.md
-│   ├── kogpt_inference.py
-│   ├── kogpt_trainer.py
-│   └── util.py
+│   ├── deepspeeconfig.json
+│   ├── modelsave.py
+│   └── train.py
 ├── KoGPT2
 │   ├── RESULT
 │   ├── models
 │   ├── README.md
+│   ├── input_recursion.py
 │   ├── inference.py
 │   ├── main.py
 │   ├── koGPT2_trainer.py
@@ -99,10 +108,7 @@ MIT_PJT
 │   ├── pages
 │   └── redux
 ├── flask
-│   ├── perplexity_compute_metrics.py
-│   ├── perplexity_test.py
-│   ├── preprocessing.py
-│   └── scrapper.py
+│   └── app.py
 ├── requirements.txt
 └── README.md
 ```
@@ -133,8 +139,14 @@ python KoGPT2/kogpt2_trainer.py
 </br>
 
 ## Dataset
+- [quickdraw-dataset](https://github.com/googlecreativelab/quickdraw-dataset)
+- [어린이 전래동화 (청와대)](http://18children.president.pa.go.kr/our_space/fairy_tales.php)
+- [그림형제 동화 번역 데이터](https://m.blog.naver.com/osy2201/221179543994)
+- [이솝우화 동화 번역 데이터](https://m.blog.naver.com/osy2201/221183426988)
+- [tale1.txt](https://github.com/cosine0/kogpt2_tale/blob/main/data/tale.txt)
 
-
+<br>
+</br>
 
 ## Reference
 
