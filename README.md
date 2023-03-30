@@ -30,11 +30,21 @@
 My AI Fairytale은 어린이가 그린 그림을 바탕으로 동화 이미지와 동화를 생성하여 직접 읽어주는 기능까지 탑재한 참여형 창작 웹서비스입니다. 어린이의 마음을 사로잡는 새로운 동화와 그림을 생성함으로써 어린이의 정서적 발달에도 크게 기여할 것으로 기대합니다.
 
 
-🏠 [My AI Fairy-Tale 바로가기!](http://myaifairytale.site/)
+🏠 [My AI Fairy-Tale 바로가기](http://myaifairytale.site/)
+
+🔎 프로젝트의 자세한 내용을 알고싶다면 [포트폴리오](링크 첨부)와 [보고서](링크 첨부)를 참고하세요!
+
 <br>
 </br>
 
-## 🎥 시연영상
+## 🗺️ 프로세스 맵
+<img src="https://user-images.githubusercontent.com/119478998/228760864-3408c253-e957-499e-9e98-4b3df45aa1d3.png" width="800" height="400" />
+
+<br>
+</br>
+
+
+## 🎥 시연 영상
 ### 1. 서비스 가이드
 <img src="https://user-images.githubusercontent.com/119478998/228752379-ac0cdc14-d5e0-4014-935a-ef74564def43.gif" width="800" height="400" />
 <br>
@@ -135,6 +145,15 @@ python main.py
 python KoGPT2/kogpt2_trainer.py
 ```
 
+### 웹 배포 및 실행
+```node.js
+# 소스 코드 번들링, 최적화, 코드 난독화 명령어
+npm run build
+
+# 배포 실행 명령어
+serve -s build
+```
+
 <br>
 </br>
 
@@ -144,13 +163,19 @@ python KoGPT2/kogpt2_trainer.py
 - [그림형제 동화 번역 데이터](https://m.blog.naver.com/osy2201/221179543994)
 - [이솝우화 동화 번역 데이터](https://m.blog.naver.com/osy2201/221183426988)
 - [tale1.txt](https://github.com/cosine0/kogpt2_tale/blob/main/data/tale.txt)
-
 <br>
 </br>
 
 ## Reference
-
-
+- https://www.yna.co.kr/view/AKR20210113064500005
+- https://github.com/uvipen/QuickDraw
+- https://github.com/microsoft/DeepSpeed
+- https://github.com/boostcampaitech3/final-project-level3-nlp-06
+- https://github.com/ttop32/KoGPT2novel
+- https://openai.com/blog/dall-e/
+- [React Redux | React Redux](https://react-redux.js.org/)
+<br>
+</br>
 
 ---
-해당 프로젝트는 멀티캠퍼스 데이터 분석 및 웹 개발자 13회차 파이널 프로젝트 3조 MIT가 기획하였습니다.
+해당 프로젝트는 멀티캠퍼스 데이터 분석 및 웹 개발자 13회차 파이널 프로젝트 3조 MIT가 기획하였습니다. 
