@@ -62,6 +62,8 @@ My AI Fairytale은 어린이가 그린 그림을 바탕으로 동화 이미지�
 </br>
 
 ## :computer: Installation
+각 프로세스마다 요구하는 사항이 다르니, 프로세스별 README.md 파일을 참고해주세요!
+
 ```bash
 pip install -r requirements.txt
 ```
