@@ -32,7 +32,7 @@ My AI Fairytale은 어린이가 그린 그림을 바탕으로 동화 이미지�
 
 🏠 [My AI Fairy-Tale 바로가기](http://myaifairytale.site/)
 
-🔎 프로젝트의 자세한 내용을 알고싶다면 [포트폴리오](링크 첨부)와 [보고서](링크 첨부)를 참고하세요!
+🔎 프로젝트의 자세한 내용을 알고싶다면? [포트폴리오](링크 첨부)와 [보고서](링크 첨부)를 참고하세요!
 
 <br>
 </br>
@@ -58,26 +58,35 @@ My AI Fairytale은 어린이가 그린 그림을 바탕으로 동화 이미지�
 ### 3. 동화 생성
 <img src="https://user-images.githubusercontent.com/119478998/228751099-122cf77c-48fa-4e5d-be71-7bcd4ecd1bf4.gif" width="800" height="400" />
 
-
 <br>
 </br>
 
-## Installation
+## :computer: Installation
 ```bash
 pip install -r requirements.txt
 ```
+<br>
+</br>
+
+<div align="center">
+
+![Pytorch](https://img.shields.io/badge/Pytorch-v1.13.1-orange?logo=Pytorch&style=plastic)
+![NodeJS](https://img.shields.io/badge/Node.js-v18.14.2-339933?logo=node.js&style=plastic)
+![react](https://img.shields.io/badge/react-v18.2.0-61dafb?logo=React&style=plastic)
+![javascript](https://img.shields.io/badge/javascript-ES6-yellow?logo=javascript&style=plastic)
+
+![Deepspeed](https://img.shields.io/badge/Deepspeed-v0.8.2+4ae3a3da-blue?logo=Deepspeed&style=plastic)
+![Transformer](https://img.shields.io/badge/Transformer-v4.27.2-green?logo=Transformer&style=plastic)
+![fastai](https://img.shields.io/badge/fastai-v2.7.11-orange?logo=fastai&style=plastic)
+
+</div>
 
 <br>
 </br>
 
-## Architecture
+## 🛠 Architecture
+<img src="https://user-images.githubusercontent.com/119478998/228766008-ed0f4d31-28ed-4bc8-95f7-598103365141.png" width="800" height="500" />
 
-:baby:
-:child:
-:book:
-
-<br>
-</br>
 
 ## :deciduous_tree: Project Tree 
 ```bash
@@ -129,10 +138,12 @@ MIT_PJT
 ## 🖱️ Usage
 ### CNN
 ```python
-# 딥스피드로 학습할 때의 명령어. deepspeedconfig.json파일로 배치 사이즈나 max_epoch등 파라미터 조절 가능
+# 딥스피드로 학습할 때의 명령어
+# deepspeedconfig.json파일로 배치 사이즈나 max_epoch등 파라미터 조절 가능
 deepspeed train.py --deepspeed_config deepspeedconfig.json 
 
-# 일반 torch로 학습시킬 때의 명령어. 딥스피드 코드 제거 및 get_args에서 파라미터 설정 후 사용 가능
+# 일반 torch로 학습시킬 때의 명령어 
+# 딥스피드 코드 제거 및 get_args에서 파라미터 설정 후 사용 가능
 python train.py 
 ```
 
@@ -142,7 +153,7 @@ python train.py
 python main.py
 
 # 동화 생성 실행 명령어, 학습한 모델 필요
-python KoGPT2/kogpt2_trainer.py
+python inference.py
 ```
 
 ### 웹 배포 및 실행
