@@ -118,15 +118,8 @@ MIT_PJT
 │   ├── txt_preprocessing.py
 │   └── util.py
 ├── react
-│   ├── node_modules
-│   ├── App.css
-│   ├── App.js
-│   ├── index.css
-│   ├── index.js
-│   ├── components
-│   ├── images
-│   ├── pages
-│   └── redux
+│   ├── public
+│   └── src
 ├── flask
 │   └── app.py
 ├── requirements.txt
