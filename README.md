@@ -144,10 +144,10 @@ python train.py
 ### koGPT2
 ```python
 # 모델 학습 명령어
-python main.py
+python koGPT2/main.py
 
 # 동화 생성 실행 명령어, 학습한 모델 필요
-python inference.py
+python koGPT2/inference.py
 ```
 
 ### 웹 배포 및 실행
