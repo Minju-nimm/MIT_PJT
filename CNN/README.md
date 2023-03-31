@@ -1,4 +1,4 @@
-# MIT_QuickDrawCNN
+# MIT_CNN
 어린이를 위한 AI 기반 동화 생성 웹 서비스 ‘My AI Fairy-Tale’에서 사용자의 그림을 인식하기 위해 사용되는 CNN 모델 학습 코드입니다.
 
 [https://github.com/uvipen/QuickDraw](https://github.com/uvipen/QuickDraw) 의 CNN 학습 코드에 딥스피드 라이브러리를 적용하고 더 많은 데이터를 학습에 사용했습니다.
