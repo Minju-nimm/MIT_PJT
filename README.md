@@ -101,7 +101,6 @@ MIT_PJT
 │   ├── modelsave.py
 │   └── train.py
 ├── KoGPT2
-│   ├── RESULT
 │   ├── models
 │   ├── README.md
 │   ├── input_recursion.py
@@ -119,14 +118,8 @@ MIT_PJT
 │   ├── txt_preprocessing.py
 │   └── util.py
 ├── react
-│   ├── App.css
-│   ├── App.js
-│   ├── index.css
-│   ├── index.js
-│   ├── components
-│   ├── images
-│   ├── pages
-│   └── redux
+│   ├── public
+│   └── src
 ├── flask
 │   └── app.py
 ├── requirements.txt
@@ -151,10 +144,10 @@ python train.py
 ### koGPT2
 ```python
 # 모델 학습 명령어
-python main.py
+python koGPT2/main.py
 
 # 동화 생성 실행 명령어, 학습한 모델 필요
-python inference.py
+python koGPT2/inference.py
 ```
 
 ### 웹 배포 및 실행
