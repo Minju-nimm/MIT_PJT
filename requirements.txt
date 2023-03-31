@@ -1,0 +1,20 @@
+pip install torch==1.13.1
+pip install transformers==4.27.2
+pip install fastai==2.7.11
+
+wget -qO- [https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh](https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh) | bash
+nvm install 18.15.0
+npm install axios
+npm install @fortawesome/react-fontawesome
+npm install @fortawesome/free-solid-svg-icons
+npm install styled-components
+npm install react-router-dom
+npm install redux
+npm install react-redux
+pip install flask
+
+pip install flask_cors
+pip install openai
+pip install requests
+pip install numpy
+conda install pytorch
