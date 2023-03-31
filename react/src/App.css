@@ -1,0 +1,402 @@
+@font-face {
+  font-family: 'KCCMurukmuruk';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  cursor: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.App {
+  width: 100vw;
+  position: relative;
+}
+
+.cursor {
+  width: 150px;
+  pointer-events: none;
+}
+
+/* 헤더 css  */
+.header_container {
+  width: 100vw;
+  height: 18vh;
+  background-image: url('./images/headerImg/headerimg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7vw;
+}
+
+.header_container .logo {
+  width: 12.5vw;
+  height: 17vh;
+}
+
+.header_container ul {
+  display: flex;
+}
+
+.header_container ul li:first-child {
+  margin-right: 4vw;
+}
+
+.header_container .draw_button {
+  width: 14vw;
+  height: 15vh;
+}
+
+
+.header_container .guide_button {
+  width: 14vw;
+  height: 15vh;
+}
+
+
+
+/* 드로우 css 시작 */
+
+.draw_container {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 18vh); 
+}
+
+.buttons {
+  width: 16vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+}
+
+.buttons li {
+  margin-bottom: 2vh;
+}
+
+.buttons li:last-child{
+  margin-bottom: 0;
+}
+
+.canvas_wrap {
+width: 65vw;
+height: 80vh;
+margin-left: 5vw;
+margin-top: 3vh;
+display: flex;
+flex-direction: center;
+align-items: center;
+position: relative;
+user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sketch {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.canvas {
+  position: absolute;
+  top: 11vh;
+  left: 2.1vw;
+  z-index: 999;
+}
+
+/* 팝업 css */
+.popup_container{
+  width: 100vw;
+  height: calc(100vh - 18vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup_img_container {
+  margin-top: 3vh;
+  width: 45vw;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.popup_img_bg {
+  height: 80vh;
+  transform: rotate(-5deg);
+}
+.popup_img {
+  position: absolute;
+  top: 10vh;
+  left: 2.8vw;
+  width: 38vw;
+  height: 56vh;
+  transform: rotate(-5deg);
+}
+
+.popup_img img {
+  width: 38vw;
+  height: 57vh;
+}
+
+.popup_contents_container {
+  margin-top: 3vh;
+  width: 48vw;
+  height: 80vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup_contents {
+  text-align: center;
+  font-family: 'KCCMurukmuruk';
+  line-height: 7vh;
+  /* margin-bottom: 7vh; */
+  
+}
+
+
+.popup_contents div {
+  font-size: 2.5vw;
+  margin-bottom: 5vh;
+}
+
+.popup_contents div span {
+  font-size: 5vw;
+  letter-spacing: 1vw;
+  background-image: url(./images/popupImg/strong.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.popup_contents div span strong {
+  letter-spacing:1px;
+}
+
+.popup_contents ul {
+  font-size: 1.9vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.popup_contents ul li:first-child{
+  background-image: url(./images/popupImg/underline1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.popup_contents ul li:last-child strong {
+  font-size: 2.5vw;
+}
+
+.popup_contents ul li:last-child{
+  background-image: url(./images/popupImg/underline2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.popup_buttons {
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup_buttons button{
+  width: 16vw;
+  height: 20vh;
+}
+
+/* 동화책 페이지 css */
+
+.fairytail_container {
+  width: 100vw;
+  height: calc(100vh - 18vh); 
+  display: flex;
+  font-family: 'KCCMurukmuruk';
+}
+
+.img_container img{
+  width: 55vw;
+  height: calc(100vh - 18vh); 
+}
+
+.story_container {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  padding: 1vh 0;
+  position: relative;
+}
+
+
+
+.story{
+  width: 26vw;
+  font-size: 1.5vw;
+  position: relative;
+  line-height: 5.4vh;
+  }
+  .draw_img {
+    position: absolute;
+    width: 5vw;
+    top: -8vh;
+    right: -5vw;
+  }
+
+.story_contents span {
+  position: absolute;
+  font-size: 5vw;
+}
+
+.story_contents span:first-child{
+  top: -2vh;
+  left: -6vw;
+}
+
+.story_contents span:last-child{
+  bottom: -7vh;
+  right: -5vw;
+}
+
+
+.story_img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 40vw;
+  position: absolute;
+  bottom: 2vh;
+  right: 2vw;
+}
+
+.story_img img {
+  width: 13vw;
+  height: 15vh;
+}
+
+button.voice {
+  cursor: none;
+  position: absolute;
+  bottom: -10vh;
+  right: 50%;
+  transform: translateX(50%);
+  font-size: 1vw;
+  line-height: 1;
+  z-index: 999;
+  
+}
+
+button.voice div {
+  transition: 0.2s ease-in-out;
+}
+
+button.voice div:hover {
+  transform: scale(1.1);
+}
+/* guide 페이지 css */
+.guide_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.guide_img {
+  width: 100vw;
+}
+
+.sketch_page_button {
+  position:absolute;
+  top: 5vh;
+  right: 2vw;
+  font-family: 'KCCMurukmuruk';
+  transition: 0.2s ease-in-out;
+  z-index: 999;
+  cursor: none;
+}
+
+.sketch_page_buttn:hover {
+  transform: scale(1.1);
+}
+
+.main_sketch_page_button {
+  position: absolute;
+  bottom: 5vh;
+  right: 5vw;
+  transform: rotate(5deg);
+  width: 15vw;
+}
+
+
+
+/* 리셋 */
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;flex-shrink:0;}
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;-moz-tab-size:4;tab-size:4}
+html, body {height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+
+ul { list-style: none;}
+img { min-width: 100%; display: block; } 
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(-5%);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(10%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
