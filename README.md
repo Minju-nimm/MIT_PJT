@@ -101,7 +101,6 @@ MIT_PJT
 │   ├── modelsave.py
 │   └── train.py
 ├── KoGPT2
-│   ├── RESULT
 │   ├── models
 │   ├── README.md
 │   ├── input_recursion.py
@@ -119,6 +118,7 @@ MIT_PJT
 │   ├── txt_preprocessing.py
 │   └── util.py
 ├── react
+│   ├── node_modules
 │   ├── App.css
 │   ├── App.js
 │   ├── index.css
