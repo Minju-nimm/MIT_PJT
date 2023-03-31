@@ -123,7 +123,6 @@ MIT_PJT
 │   ├── App.js
 │   ├── index.css
 │   ├── index.js
-│   ├── layer.py
 │   ├── components
 │   ├── images
 │   ├── pages
