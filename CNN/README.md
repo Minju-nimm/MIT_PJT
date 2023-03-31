@@ -7,11 +7,7 @@
     - 합성곱 신경망. 이미지나 영상 분류에 주로 사용되는 모델
     - 입력 이미지의 특징맵을 추출하여 분류에 사용
         
-<<<<<<< HEAD
         → DNN보다 훨씬 적은 파라미터를 사용하고, 입력 데이터의 변형에 강하다
-=======
-        → DNN보다 훨씬 적은 파라미터를 사용하고, 입력 데이터의 변형에 강하다 
->>>>>>> 43bcb2eeab3f8f1c8caffcf9f28152bbe0c3869f
         
 - [Deepspeed](https://github.com/microsoft/DeepSpeed)
     - 파이토치의 연산과 개발 속도를 더욱 가속화하는 최적화 라이브러리
@@ -32,8 +28,4 @@
 python traincopy.py #딥스피드를 사용하지 않고 모델을 학습합니다. traincopy.py 파일은 참고한 깃허브의 학습 코드 원본입니다.
 deepspeed train.py --deepspeed_config deepspeedconfig.json #딥스피드를 사용하여 모델을 학습합니다.
 python modelsave.py #학습 중간에 생성된 checkpoint 파일을 불러와 모델로 저장합니다.
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 43bcb2eeab3f8f1c8caffcf9f28152bbe0c3869f
