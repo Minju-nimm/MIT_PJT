@@ -187,8 +187,8 @@ serve -s build
 
 ```
 프로젝트와 관련된 자세한 질문은 minjunimm@gmail.com으로 연락주시면 감사하겠습니다.
-아래는 각 프로세스별 담당 팀원 이메일입니다.
 
+아래는 각 프로세스별 담당 팀원 이메일입니다.
 CNN 관련: huhhuh1217@gmail.com
 koGPT2 관련: minjunimm@gmail.com
 웹 개발 및 서버 관련: rlawhs123@gmail.com
