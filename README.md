@@ -87,7 +87,7 @@ pip install -r requirements.txt
 </br>
 
 ## 🛠 Architecture
-<img src="https://user-images.githubusercontent.com/119478998/228766008-ed0f4d31-28ed-4bc8-95f7-598103365141.png" width="800" height="500" />
+<img src="https://user-images.githubusercontent.com/119478998/229721569-cc2b6136-b86f-4b3a-a8c1-b6108efc4395.png" width="900" height="400" />
 
 
 ## :deciduous_tree: Project Tree 
