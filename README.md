@@ -32,7 +32,7 @@ My AI Fairy-Tale은 어린이가 그린 그림을 바탕으로 동화 이미지�
 
 🏠 [My AI Fairy-Tale 바로가기](http://myaifairytale.site/)
 
-🔎 프로젝트의 자세한 내용을 알고싶다면? [포트폴리오](https://github.com/Minju-nimm/MIT_PJT/blob/main/src/mit_presentaion.pdf)와 [보고서](링크 첨부)를 참고하세요!
+🔎 프로젝트의 자세한 내용을 알고싶다면? [포트폴리오](https://github.com/Minju-nimm/MIT_PJT/blob/main/src/mit_presentaion.pdf)와 [보고서](https://github.com/Minju-nimm/MIT_PJT/blob/main/src/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EB%9E%A9%EC%97%85_%EB%A6%AC%ED%8F%AC%ED%8A%B8.pdf)를 참고하세요!
 
 <br>
 </br>
