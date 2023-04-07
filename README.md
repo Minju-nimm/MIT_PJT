@@ -45,6 +45,12 @@ My AI Fairy-Tale은 어린이가 그린 그림을 바탕으로 동화 이미지�
 
 
 ## 🎥 시연 영상
+용량 문제로 영상 원본은 유튜브에 업로드 해놓았습니다. 실제 로딩시간과 음성 서비스를 경험할 수 있습니다.
+
+👉🏻 [시연 영상 원본 보러가기 클릭!](https://www.youtube.com/watch?v=IdmWXjR6ajg) 👈🏻
+<br>
+</br>
+
 ### 1. 서비스 가이드
 <img src="https://user-images.githubusercontent.com/119478998/228752379-ac0cdc14-d5e0-4014-935a-ef74564def43.gif" width="800" height="400" />
 <br>
